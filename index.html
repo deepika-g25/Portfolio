@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deepika G - Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Deepika G</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/Resume-deepika.pdf" download> View Resume</a></li>
+      </ul>
+    </nav>
+  
+  </header>
+
+  <section class="home" id="home">
+    <div class="intro slide-in-left">
+      <h1>Hello, I'm <span>Deepika G</span></h1>
+      <p>I’m a Junior Full Stack Web Developer passionate about crafting beautiful and user-friendly web applications.</p>
+      <div class="cta">
+        <a href="#projects" class="btn">See My Work</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+      <div class="socials">
+        <a href="https://linkedin.com/in/deepika-g1025" target="_blank">LinkedIn</a>
+        <a href="https://github.com/deepika-g25" target="_blank">GitHub</a>
+      </div>
+    </div>
+ <div class="image-container">
+  <img
+    src="assets/Image.jpg"
+    alt="Profile Picture"
+    class="profile-blob"
+  />
+</div>
+
+  </section>
+
+  
+ <section id="about" class="section about-section fade-in">
+  <h2>About Me</h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>
+        I’m a creative and detail-focused Junior Full Stack Developer with strong skills in building user-friendly web applications.</p>
+        <br>
+        <p>I'm passionate about solving problems, collaborating in teams, and turning ideas into interactive experiences.
+      </p>
+      <br>
+      <p>Currently pursuing IT at Kingston Engineering College, I thrive on building responsive, modern, and accessible websites.</p>
+
+    </div>
+
+    <div class="education-section">
+      <h3>Education</h3>
+      <div class="edu-entry">
+        <h4>Kingston Engineering College, Vellore</h4>
+        <p><strong>B.Tech - Information Technology</strong> (2022–2026)</p>
+      </div>
+      <div class="edu-entry">
+        <h4>Koona Presidency Matric Hr. Sec. School</h4>
+        <p><strong>HSC</strong> (2021–2022)</p>
+      </div>
+      <div class="edu-entry">
+        <h4>Koona Presidency Matric Hr. Sec. School</h4>
+        <p><strong>SSLC</strong> (2019–2020)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p class="skills-intro">Some of the tools and technologies I love to work with:</p>
+
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3>Frontend</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>JavaScript</li>
+    </ul>
+    </div>
+    <div class="skill-category">
+      <h3>Backend</h3>
+      <ul>
+        <li>Node.js</li>
+        <li>PHP</li>
+        <li>Python</li>
+      </ul>
+    </div>
+    <div class="skill-category">
+      <h3>Tools & Frameworks</h3>
+      <ul>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section projects-section fade-in">
+  <h2>Projects</h2>
+
+  <div class="project reverse">
+    <div class="project-image">
+      <img src="assets/travel website.png" alt="Project 1">
+    </div>
+    <div class="project-content">
+      <h3>Explore India – Travel Website</h3>
+      <p>visually engaging travel guide to India built with HTML, CSS, and JavaScript. Features include interactive maps, destination highlights, cultural blogs, and travel tips for tourists.</p>
+      <!--<a href="#" class="project-link">View Project</a>-->
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-image">
+      <img src="assets/mini-project-website.png" alt="Project 2">
+    </div>
+    <div class="project-content">
+      <h3>75 Mini Projects – Web Playground</h3>
+      <p>A collection of 75+ mini front-end projects created using HTML, CSS, and JavaScript. Includes calculators, to-do apps, animations, games, and more — perfect for showcasing front-end skills.</p>
+      <!--<a href="#" class="project-link">View Project</a>-->
+    </div>
+  </div>
+    
+  <div class="project">
+    <div class="project-image">
+      <img src="assets/portfolio.png" alt="Project 3">
+    </div>
+    <div class="project-content">
+      <h3>Portfolio Website</h3>
+      <p>A personal interactive portfolio built with HTML, CSS, and JavaScript. Includes responsive design, animated components, and sectioned navigation like About, Skills, Projects, and Contact.</p>
+      <!--<a href="#" class="project-link">View Project</a>-->
+    </div>
+  </div>
+ 
+</section>
+
+  
+<section id="contact" class="section contact-section slide-in-left">
+  <h2>Contact Me</h2>
+  <p>Feel free to drop a message below!</p>
+
+  <form class="contact-form">
+    <div class="form-group">
+      <input type="text" placeholder="Your Name" required />
+    </div>
+    <div class="form-group">
+      <input type="email" placeholder="Your Email" required />
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer fade-in">
+  <p>&copy; 2025 Deepika G. All Rights Reserved.</p>
+  <div class="footer-links">
+    <a href="https://github.com/deepika-g25" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/deepika-g1025" target="_blank">LinkedIn</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
